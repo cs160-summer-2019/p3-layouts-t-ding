@@ -12,9 +12,31 @@
 
 		<script src="{% static '/vendors/jquery/jquery-3.3.1.min.js' %}"></script>
 		<script src="{% static '/vendors/jquery-ui/jquery-ui.min.js' %}"></script>
+    <style>
+      
+.box {
+  display: flex;
+  background-color: purple;
+  justify-content: space-evenly;
+  height: 800px;
+}
+
+.box > div {
+  background-color: orange;
+  margin: 0px;
+  padding: 200px;
+  font-size: 30px;
+}
+    
+    
+    </style>
 	</head>
 	<body>
-		<!-- Your layout here -->
+		<div class="box">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
 
 	</body>
 </html>
